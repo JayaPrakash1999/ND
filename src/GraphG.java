@@ -5,7 +5,7 @@ public class GraphG
 {
 	Vector<Integer>[] adjacent ;//for adjacency lists
 	int V;
-//	HierarchySkeleton h= new HierarchySkeleton();
+	HierarchySkeleton h= new HierarchySkeleton();
 	DataStorage ds = new DataStorage();
 	
 	//Depth First Search with recursive for checking the degree which is less than k (k-core)
@@ -119,8 +119,9 @@ public class GraphG
 		if(k==4) 
 		{
 		
-		System.out.println("\nPost-order of the hierarchy skeleton which is derived from the given graph G:-");
-		System.out.println(ds.ht2);
+		h.callForSkeleton(ds.ht2);
+//		System.out.println("\nPost-order of the hierarchy skeleton which is derived from the given graph G:-");
+//		System.out.println(ds.ht2);
 		}
 		
 	}
