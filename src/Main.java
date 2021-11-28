@@ -17,7 +17,7 @@ public class Main {
 		try {
 			
 			//taking input file here
-			Scanner sc = new Scanner(new File("input5.txt"));
+			Scanner sc = new Scanner(new File("input6.txt"));
 			int [] inputData = new int [100];
 			int i = 0;
 			//storing the values from input file into inputData array
@@ -36,6 +36,7 @@ public class Main {
 			for(k=2;k<5;k++)
 			g1.printingKCores(k); // to print the adjacency list of k-core graph
 			
+			HierarchySkeleton hs = new HierarchySkeleton();
 			
 			//Calling Hierarchy Skeleton to print the pre-order 
 			

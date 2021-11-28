@@ -5,6 +5,8 @@ public class GraphG
 {
 	Vector<Integer>[] adjacent ;//for adjacency lists
 	int V;
+//	HierarchySkeleton h= new HierarchySkeleton();
+	DataStorage ds = new DataStorage();
 	
 	//Depth First Search with recursive for checking the degree which is less than k (k-core)
 	boolean ReducesDegree(int v, boolean[] visited, int[] verticesDegree, int k)
@@ -24,6 +26,8 @@ public class GraphG
 		}
 		return (verticesDegree[v] < k);// Returning true == In case degree of v is less than k
 	}
+	
+	
 	
 	
 	// adding edges to GraphG
@@ -90,18 +94,34 @@ public class GraphG
 				System.out.println();
 				System.out.print("["+ v +"]");
 				
+				int loc=ds.count+65;
+				System.out.print(" "+(char)loc);
+				
 				//printing vertices whose degree is greater than k(minimum k in k-core)
+				int local=0;
+//				ds.result[ds.count][local]=0;
 				for (int i : adjacent[v])
 				{
 					if (verticesDegree[i] >= k)
 					{
 						System.out.print(" -> "+ i);
+						ds.ht2.put((char)loc, k);
+//						ds.result[ds.count][local]++;
+//						local++;
 					}
 				}
+				ds.count++;
 				
 			}
 		}
 		System.out.println();
+		
+		if(k==4) 
+		{
+		
+		System.out.println("\nPost-order of the hierarchy skeleton which is derived from the given graph G:-");
+		System.out.println(ds.ht2);
+		}
 		
 	}
 }
