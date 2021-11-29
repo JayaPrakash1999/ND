@@ -16,4 +16,5 @@ Implemntation of Fast Hierarchy Construction for Dense Subgraphs
 **Outputs** from this project result in a set of subgraphs with certain Lamda values which are then used in the construction of the Hierarchy skeleton.
 
 4. Hierarchy skeleton is represented by Adjacency List, which is the final output
-   The output of all input files is stored in the output.txt file
+
+5. The output of all input files is stored in the output.txt file
