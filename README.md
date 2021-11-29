@@ -18,3 +18,7 @@ Implemntation of Fast Hierarchy Construction for Dense Subgraphs
 4. Hierarchy skeleton is represented by Adjacency List, which is the final output
 
 5. The output of all input files is stored in the output.txt file
+
+
+
+![image](https://user-images.githubusercontent.com/51074340/143935006-d052e646-a33d-4b80-a869-6cbd6a8a0c77.png)
