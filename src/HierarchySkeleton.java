@@ -10,7 +10,7 @@ public class HierarchySkeleton {
 	ArrayList<Character> thirdL =new ArrayList<Character>(); //for 3rd layer
 	public void callForSkeleton(Hashtable<Character, Integer> inp)
 	{
-		System.out.println("\nThe hierarchy skeleton which is derived from the given graph G:-");
+		System.out.println("\nThe hierarchy skeleton of all subgraphs derived from the given graph G:-");
 //		System.out.println("Key Value");
 		
 

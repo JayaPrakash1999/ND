@@ -10,14 +10,14 @@ public class Main {
 		
 		int k=2; //k-core = 3 core
 		Scanner obj = new Scanner(System.in);
-		System.out.print("Enter the vertices of graph:- ");
+		System.out.print("Enter the vertices of graph G:- ");
 		int vertices= obj.nextInt();
 		
 		GraphG g1 = new GraphG(vertices);  
 		try {
 			
 			//taking input file here
-			Scanner sc = new Scanner(new File("input6.txt"));
+			Scanner sc = new Scanner(new File("input15.txt")); //can modify the input file accordingly
 			int [] inputData = new int [100];
 			int i = 0;
 			//storing the values from input file into inputData array
@@ -25,7 +25,7 @@ public class Main {
 			{
 				inputData[i++] = sc.nextInt();
 			}
-			//here i+1 is the number of edges in the given graph
+			//here i, i+1 is the number of edges in the given graph
 			int j=0;
 			while(j<i)
 			{
@@ -79,7 +79,6 @@ public class Main {
 			System.out.println(e);
 		}
 	}
-	
 
 }
 
