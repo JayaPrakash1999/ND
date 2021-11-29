@@ -5,7 +5,7 @@ Implemntation of Fast Hierarchy Construction for Dense Subgraphs
 1. Make sure the system has latest version of Java
 2. Run the **Main.java** using any IDE or command prompt.
 
-3. The input files contains the edges of the input graph and each line in the input file indicates teh vertex of the graph such that 2 lines together forms the edge.
+3. The input file contains the edges of the input graph and each line in the input file indicates the vertex of the graph such that 2 lines together forms the edge.
 
 **Note:-** If there are N vertices(lines) in the input file, it means: the number of edges in the input graph is : N/2
 
