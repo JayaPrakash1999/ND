@@ -20,5 +20,5 @@ Implemntation of Fast Hierarchy Construction for Dense Subgraphs
 5. The output of all input files is stored in the output.txt file
 
 
-
+Graph and Skeleton Structure for input3.txt file :
 ![image](https://user-images.githubusercontent.com/51074340/143935006-d052e646-a33d-4b80-a869-6cbd6a8a0c77.png)
