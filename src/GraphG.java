@@ -90,6 +90,9 @@ public class GraphG
 			if (verticesDegree[v] >= k)
 			{
 				int loc=ds.count+65;
+				if(ds.count>25) {
+					loc=loc+6;
+				}
 				System.out.println();
 				System.out.print("Subgraph "+(char)loc +":- ");
 				System.out.print("["+ v +"]");

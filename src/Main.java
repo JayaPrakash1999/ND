@@ -1,23 +1,28 @@
 //importing required libraries
-import java.io.File;
+import java.io.*;
 import java.io.FileNotFoundException;
+import java.io.PrintStream;
 import java.util.Scanner;
 import java.util.*;
 
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws FileNotFoundException {
 		
-		int k=2; //k-core = 3 core
+		PrintStream fileStream = new PrintStream("output.txt");
+		System.setOut(fileStream);
+		for(int seq=0;seq<5;seq++) {
+		System.out.println("For input"+seq+":");
+		int k=2; //k-core = 2 core
 		Scanner obj = new Scanner(System.in);
-		System.out.print("Enter the vertices of graph G:- ");
-		int vertices= obj.nextInt();
-		
+//		System.out.print("Enter the vertices of graph G:- ");
+//		int vertices= obj.nextInt();
+		int vertices=20; //maximum vertices for our system configuration
 		GraphG g1 = new GraphG(vertices);  
 		try {
 			
 			//taking input file here
-			Scanner sc = new Scanner(new File("input15.txt")); //can modify the input file accordingly
+			Scanner sc = new Scanner(new File("input"+String.valueOf(seq)+".txt")); //can modify the input file accordingly
 			int [] inputData = new int [100];
 			int i = 0;
 			//storing the values from input file into inputData array
@@ -36,10 +41,7 @@ public class Main {
 			for(k=2;k<5;k++)
 			g1.printingKCores(k); // to print the adjacency list of k-core graph
 			
-			HierarchySkeleton hs = new HierarchySkeleton();
-			
-			//Calling Hierarchy Skeleton to print the pre-order 
-			
+			HierarchySkeleton hs = new HierarchySkeleton();//Calling Hierarchy Skeleton to print the pre-order 
 			
 //			System.out.println("aa");
 //			int count=0;
@@ -78,8 +80,10 @@ public class Main {
 		catch(FileNotFoundException e) {
 			System.out.println(e);
 		}
+		System.out.println("***End***\n\n");
 	}
-
+		
+	}
 }
 
 

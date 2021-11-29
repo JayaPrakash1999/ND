@@ -1,0 +1,253 @@
+For input0:
+	**************
+Adjacency list of 2 Cores's subgraph from given graph :- 
+
+Subgraph A:- [0] -> 1 -> 2
+Subgraph B:- [1] -> 0 -> 2 -> 5
+Subgraph C:- [2] -> 0 -> 1 -> 3 -> 4 -> 5 -> 6
+Subgraph D:- [3] -> 2 -> 4 -> 6 -> 7
+Subgraph E:- [4] -> 2 -> 3 -> 6 -> 7
+Subgraph F:- [5] -> 1 -> 2 -> 6 -> 8
+Subgraph G:- [6] -> 2 -> 3 -> 4 -> 5 -> 7 -> 8
+Subgraph H:- [7] -> 3 -> 4 -> 6
+Subgraph I:- [8] -> 5 -> 6
+	**************
+Adjacency list of 3 Cores's subgraph from given graph :- 
+
+Subgraph J:- [2] -> 3 -> 4 -> 6
+Subgraph K:- [3] -> 2 -> 4 -> 6 -> 7
+Subgraph L:- [4] -> 2 -> 3 -> 6 -> 7
+Subgraph M:- [6] -> 2 -> 3 -> 4 -> 7
+Subgraph N:- [7] -> 3 -> 4 -> 6
+	**************
+Adjacency list of 4 Cores's subgraph from given graph :- 
+
+Subgraph O:- [2]
+
+The hierarchy skeleton of all subgraphs derived from the given graph G:-
+{D=2, C=2, B=2, A=2, N=3, M=3, L=3, K=3, J=3, I=2, H=2, G=2, F=2, E=2}
+
+First Layer: [D, C, B, A, I, H, G, F, E]
+Second Layer: [N, M, L, K, J]
+Third Layer: []
+********************
+After sorting/Final Skeleton
+First Layer: [A, B, C, D, E, F, G, H, I]
+Second Layer: [J, K, L, M, N]
+Third Layer: []
+***End***
+
+
+For input1:
+	**************
+Adjacency list of 2 Cores's subgraph from given graph :- 
+
+Subgraph A:- [0] -> 2 -> 3 -> 4 -> 7
+Subgraph B:- [1] -> 2 -> 8 -> 7
+Subgraph C:- [2] -> 0 -> 1 -> 3 -> 4 -> 6 -> 7 -> 8
+Subgraph D:- [3] -> 0 -> 2 -> 7 -> 6 -> 4
+Subgraph E:- [4] -> 0 -> 2 -> 3 -> 7
+Subgraph F:- [6] -> 2 -> 3 -> 7 -> 8
+Subgraph G:- [7] -> 0 -> 1 -> 2 -> 3 -> 4 -> 6 -> 8
+Subgraph H:- [8] -> 1 -> 2 -> 6 -> 7
+	**************
+Adjacency list of 3 Cores's subgraph from given graph :- 
+
+Subgraph I:- [0] -> 2 -> 3 -> 4 -> 7
+Subgraph J:- [1] -> 2 -> 8 -> 7
+Subgraph K:- [2] -> 0 -> 1 -> 3 -> 4 -> 6 -> 7 -> 8
+Subgraph L:- [3] -> 0 -> 2 -> 7 -> 6 -> 4
+Subgraph M:- [4] -> 0 -> 2 -> 3 -> 7
+Subgraph N:- [6] -> 2 -> 3 -> 7 -> 8
+Subgraph O:- [7] -> 0 -> 1 -> 2 -> 3 -> 4 -> 6 -> 8
+Subgraph P:- [8] -> 1 -> 2 -> 6 -> 7
+	**************
+Adjacency list of 4 Cores's subgraph from given graph :- 
+
+Subgraph Q:- [0] -> 2 -> 3 -> 4 -> 7
+Subgraph R:- [2] -> 0 -> 3 -> 4 -> 6 -> 7 -> 8
+Subgraph S:- [3] -> 0 -> 2 -> 7 -> 6 -> 4
+Subgraph T:- [4] -> 0 -> 2 -> 3 -> 7
+Subgraph U:- [6] -> 2 -> 3 -> 7 -> 8
+Subgraph V:- [7] -> 0 -> 2 -> 3 -> 4 -> 6 -> 8
+Subgraph W:- [8] -> 2 -> 6 -> 7
+
+The hierarchy skeleton of all subgraphs derived from the given graph G:-
+{W=4, V=4, U=4, T=4, S=4, R=4, Q=4, P=3, O=3, N=3, M=3, L=3, K=3, J=3, I=3, H=2, G=2, F=2, E=2, D=2, C=2, B=2, A=2}
+
+First Layer: [H, G, F, E, D, C, B, A]
+Second Layer: [P, O, N, M, L, K, J, I]
+Third Layer: [W, V, U, T, S, R, Q]
+********************
+After sorting/Final Skeleton
+First Layer: [A, B, C, D, E, F, G, H]
+Second Layer: [I, J, K, L, M, N, O, P]
+Third Layer: [Q, R, S, T, U, V, W]
+***End***
+
+
+For input2:
+	**************
+Adjacency list of 2 Cores's subgraph from given graph :- 
+
+Subgraph A:- [0] -> 1 -> 2 -> 7 -> 5 -> 8 -> 6
+Subgraph B:- [1] -> 0 -> 2 -> 5
+Subgraph C:- [2] -> 0 -> 1 -> 3 -> 4 -> 5 -> 6
+Subgraph D:- [3] -> 2 -> 4 -> 6 -> 7
+Subgraph E:- [4] -> 2 -> 3 -> 6 -> 7
+Subgraph F:- [5] -> 1 -> 2 -> 6 -> 8 -> 0
+Subgraph G:- [6] -> 2 -> 3 -> 4 -> 5 -> 7 -> 8 -> 0
+Subgraph H:- [7] -> 3 -> 4 -> 6 -> 0
+Subgraph I:- [8] -> 5 -> 6 -> 0
+	**************
+Adjacency list of 3 Cores's subgraph from given graph :- 
+
+Subgraph J:- [0] -> 1 -> 2 -> 7 -> 5 -> 8 -> 6
+Subgraph K:- [1] -> 0 -> 2 -> 5
+Subgraph L:- [2] -> 0 -> 1 -> 3 -> 4 -> 5 -> 6
+Subgraph M:- [3] -> 2 -> 4 -> 6 -> 7
+Subgraph N:- [4] -> 2 -> 3 -> 6 -> 7
+Subgraph O:- [5] -> 1 -> 2 -> 6 -> 8 -> 0
+Subgraph P:- [6] -> 2 -> 3 -> 4 -> 5 -> 7 -> 8 -> 0
+Subgraph Q:- [7] -> 3 -> 4 -> 6 -> 0
+Subgraph R:- [8] -> 5 -> 6 -> 0
+	**************
+Adjacency list of 4 Cores's subgraph from given graph :- 
+
+Subgraph S:- [0] -> 2 -> 7 -> 6
+Subgraph T:- [2] -> 0 -> 3 -> 4 -> 6
+Subgraph U:- [3] -> 2 -> 4 -> 6 -> 7
+Subgraph V:- [4] -> 2 -> 3 -> 6 -> 7
+Subgraph W:- [6] -> 2 -> 3 -> 4 -> 7 -> 0
+Subgraph X:- [7] -> 3 -> 4 -> 6 -> 0
+
+The hierarchy skeleton of all subgraphs derived from the given graph G:-
+{X=4, W=4, V=4, U=4, T=4, S=4, R=3, Q=3, P=3, O=3, N=3, M=3, L=3, K=3, J=3, I=2, H=2, G=2, F=2, E=2, D=2, C=2, B=2, A=2}
+
+First Layer: [I, H, G, F, E, D, C, B, A]
+Second Layer: [R, Q, P, O, N, M, L, K, J]
+Third Layer: [X, W, V, U, T, S]
+********************
+After sorting/Final Skeleton
+First Layer: [A, B, C, D, E, F, G, H, I]
+Second Layer: [J, K, L, M, N, O, P, Q, R]
+Third Layer: [S, T, U, V, W, X]
+***End***
+
+
+For input3:
+	**************
+Adjacency list of 2 Cores's subgraph from given graph :- 
+
+Subgraph A:- [0] -> 1 -> 2 -> 3 -> 4
+Subgraph B:- [1] -> 0 -> 4 -> 2 -> 5 -> 7
+Subgraph C:- [2] -> 0 -> 1 -> 4 -> 3 -> 5
+Subgraph D:- [3] -> 0 -> 2 -> 5 -> 4 -> 6
+Subgraph E:- [4] -> 0 -> 1 -> 2 -> 3 -> 5 -> 6
+Subgraph F:- [5] -> 1 -> 2 -> 3 -> 4 -> 6 -> 7
+Subgraph G:- [6] -> 3 -> 4 -> 5
+Subgraph H:- [7] -> 5 -> 1
+	**************
+Adjacency list of 3 Cores's subgraph from given graph :- 
+
+Subgraph I:- [0] -> 1 -> 2 -> 3 -> 4
+Subgraph J:- [1] -> 0 -> 4 -> 2 -> 5
+Subgraph K:- [2] -> 0 -> 1 -> 4 -> 3 -> 5
+Subgraph L:- [3] -> 0 -> 2 -> 5 -> 4 -> 6
+Subgraph M:- [4] -> 0 -> 1 -> 2 -> 3 -> 5 -> 6
+Subgraph N:- [5] -> 1 -> 2 -> 3 -> 4 -> 6
+Subgraph O:- [6] -> 3 -> 4 -> 5
+	**************
+Adjacency list of 4 Cores's subgraph from given graph :- 
+
+Subgraph P:- [0] -> 1 -> 2 -> 3 -> 4
+Subgraph Q:- [1] -> 0 -> 4 -> 2 -> 5
+Subgraph R:- [2] -> 0 -> 1 -> 4 -> 3 -> 5
+Subgraph S:- [3] -> 0 -> 2 -> 5 -> 4
+Subgraph T:- [4] -> 0 -> 1 -> 2 -> 3 -> 5
+Subgraph U:- [5] -> 1 -> 2 -> 3 -> 4
+
+The hierarchy skeleton of all subgraphs derived from the given graph G:-
+{U=4, T=4, S=4, R=4, Q=4, P=4, O=3, N=3, M=3, L=3, K=3, J=3, I=3, H=2, G=2, F=2, E=2, D=2, C=2, B=2, A=2}
+
+First Layer: [H, G, F, E, D, C, B, A]
+Second Layer: [O, N, M, L, K, J, I]
+Third Layer: [U, T, S, R, Q, P]
+********************
+After sorting/Final Skeleton
+First Layer: [A, B, C, D, E, F, G, H]
+Second Layer: [I, J, K, L, M, N, O]
+Third Layer: [P, Q, R, S, T, U]
+***End***
+
+
+For input4:
+	**************
+Adjacency list of 2 Cores's subgraph from given graph :- 
+
+Subgraph A:- [1] -> 2 -> 3 -> 8 -> 13 -> 15 -> 2 -> 3 -> 8 -> 13 -> 15
+Subgraph B:- [2] -> 1 -> 1 -> 8 -> 8
+Subgraph C:- [3] -> 1 -> 1 -> 4 -> 5 -> 4 -> 5
+Subgraph D:- [4] -> 3 -> 3 -> 5 -> 5
+Subgraph E:- [5] -> 3 -> 4 -> 3 -> 4
+Subgraph F:- [6] -> 7 -> 9 -> 10 -> 11 -> 7 -> 9 -> 10 -> 11
+Subgraph G:- [7] -> 6 -> 6 -> 10 -> 11 -> 10 -> 11
+Subgraph H:- [8] -> 1 -> 2 -> 1 -> 2 -> 9 -> 11 -> 9 -> 11
+Subgraph I:- [9] -> 6 -> 8 -> 6 -> 8 -> 10 -> 11 -> 10 -> 11
+Subgraph J:- [10] -> 6 -> 7 -> 9 -> 6 -> 7 -> 9
+Subgraph K:- [11] -> 6 -> 7 -> 8 -> 9 -> 6 -> 7 -> 8 -> 9
+Subgraph L:- [12] -> 13 -> 14 -> 15 -> 13 -> 14 -> 15
+Subgraph M:- [13] -> 1 -> 12 -> 1 -> 12 -> 14 -> 15 -> 14 -> 15
+Subgraph N:- [14] -> 12 -> 13 -> 12 -> 13 -> 15 -> 15
+Subgraph O:- [15] -> 1 -> 12 -> 13 -> 14 -> 1 -> 12 -> 13 -> 14
+	**************
+Adjacency list of 3 Cores's subgraph from given graph :- 
+
+Subgraph P:- [1] -> 2 -> 3 -> 8 -> 13 -> 15 -> 2 -> 3 -> 8 -> 13 -> 15
+Subgraph Q:- [2] -> 1 -> 1 -> 8 -> 8
+Subgraph R:- [3] -> 1 -> 1 -> 4 -> 5 -> 4 -> 5
+Subgraph S:- [4] -> 3 -> 3 -> 5 -> 5
+Subgraph T:- [5] -> 3 -> 4 -> 3 -> 4
+Subgraph U:- [6] -> 7 -> 9 -> 10 -> 11 -> 7 -> 9 -> 10 -> 11
+Subgraph V:- [7] -> 6 -> 6 -> 10 -> 11 -> 10 -> 11
+Subgraph W:- [8] -> 1 -> 2 -> 1 -> 2 -> 9 -> 11 -> 9 -> 11
+Subgraph X:- [9] -> 6 -> 8 -> 6 -> 8 -> 10 -> 11 -> 10 -> 11
+Subgraph Y:- [10] -> 6 -> 7 -> 9 -> 6 -> 7 -> 9
+Subgraph Z:- [11] -> 6 -> 7 -> 8 -> 9 -> 6 -> 7 -> 8 -> 9
+Subgraph a:- [12] -> 13 -> 14 -> 15 -> 13 -> 14 -> 15
+Subgraph b:- [13] -> 1 -> 12 -> 1 -> 12 -> 14 -> 15 -> 14 -> 15
+Subgraph c:- [14] -> 12 -> 13 -> 12 -> 13 -> 15 -> 15
+Subgraph d:- [15] -> 1 -> 12 -> 13 -> 14 -> 1 -> 12 -> 13 -> 14
+	**************
+Adjacency list of 4 Cores's subgraph from given graph :- 
+
+Subgraph e:- [1] -> 2 -> 3 -> 8 -> 13 -> 15 -> 2 -> 3 -> 8 -> 13 -> 15
+Subgraph f:- [2] -> 1 -> 1 -> 8 -> 8
+Subgraph g:- [3] -> 1 -> 1 -> 4 -> 5 -> 4 -> 5
+Subgraph h:- [4] -> 3 -> 3 -> 5 -> 5
+Subgraph i:- [5] -> 3 -> 4 -> 3 -> 4
+Subgraph j:- [6] -> 7 -> 9 -> 10 -> 11 -> 7 -> 9 -> 10 -> 11
+Subgraph k:- [7] -> 6 -> 6 -> 10 -> 11 -> 10 -> 11
+Subgraph l:- [8] -> 1 -> 2 -> 1 -> 2 -> 9 -> 11 -> 9 -> 11
+Subgraph m:- [9] -> 6 -> 8 -> 6 -> 8 -> 10 -> 11 -> 10 -> 11
+Subgraph n:- [10] -> 6 -> 7 -> 9 -> 6 -> 7 -> 9
+Subgraph o:- [11] -> 6 -> 7 -> 8 -> 9 -> 6 -> 7 -> 8 -> 9
+Subgraph p:- [12] -> 13 -> 14 -> 15 -> 13 -> 14 -> 15
+Subgraph q:- [13] -> 1 -> 12 -> 1 -> 12 -> 14 -> 15 -> 14 -> 15
+Subgraph r:- [14] -> 12 -> 13 -> 12 -> 13 -> 15 -> 15
+Subgraph s:- [15] -> 1 -> 12 -> 13 -> 14 -> 1 -> 12 -> 13 -> 14
+
+The hierarchy skeleton of all subgraphs derived from the given graph G:-
+{Z=3, Y=3, X=3, W=3, V=3, U=3, T=3, S=3, R=3, Q=3, P=3, O=2, N=2, M=2, L=2, K=2, J=2, I=2, H=2, G=2, F=2, E=2, D=2, C=2, B=2, A=2, s=4, r=4, q=4, p=4, o=4, n=4, m=4, l=4, k=4, j=4, i=4, h=4, g=4, f=4, e=4, d=3, c=3, b=3, a=3}
+
+First Layer: [O, N, M, L, K, J, I, H, G, F, E, D, C, B, A]
+Second Layer: [Z, Y, X, W, V, U, T, S, R, Q, P, d, c, b, a]
+Third Layer: [s, r, q, p, o, n, m, l, k, j, i, h, g, f, e]
+********************
+After sorting/Final Skeleton
+First Layer: [A, B, C, D, E, F, G, H, I, J, K, L, M, N, O]
+Second Layer: [P, Q, R, S, T, U, V, W, X, Y, Z, a, b, c, d]
+Third Layer: [e, f, g, h, i, j, k, l, m, n, o, p, q, r, s]
+***End***
+
+
