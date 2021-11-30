@@ -28,6 +28,10 @@ public class GraphG
 	}
 	
 	
+// 	void storeEdges(int k){
+// 		//for storing the edges of the subgraphs
+// 	}
+	
 	// adding edges to GraphG
 	void addingEdge(int u, int v)
 	{
