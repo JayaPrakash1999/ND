@@ -18,7 +18,9 @@ Implemntation of Fast Hierarchy Construction for Dense Subgraphs
 4. Hierarchy skeleton is represented by Adjacency List, which is the final output
 
 5. The output of all input files is stored in the output.txt file
+6. 
 **NOTE** Input4.txt is the dataset took from https://github.com/athomo/kcore/blob/master/simplegraph.txt with around 50 edges.
+
 
 Graph and Skeleton Structure for input3.txt file :
 ![image](https://user-images.githubusercontent.com/51074340/143935006-d052e646-a33d-4b80-a869-6cbd6a8a0c77.png)
