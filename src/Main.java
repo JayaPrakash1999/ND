@@ -11,7 +11,7 @@ public class Main {
 		
 		PrintStream fileStream = new PrintStream("output.txt");
 		System.setOut(fileStream);
-		for(int seq=0;seq<5;seq++) {
+		for(int seq=0;seq<=5;seq++) {
 		System.out.println("For input"+seq+":");
 		int k=2; //k-core = 2 core
 		Scanner obj = new Scanner(System.in);
