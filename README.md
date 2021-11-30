@@ -29,5 +29,6 @@ Graph and Skeleton Structure for input3.txt file :
 
 
 
-Screenshot of the output executed on Eclipse IDE:
-![image](https://user-images.githubusercontent.com/51074340/144123221-05b84b18-27a1-4793-8f55-d144fbcec1a7.png)
+Screenshot of the output executed on Intellij IDE:
+![image](https://user-images.githubusercontent.com/51074340/144128556-6d21a5a6-eaa9-4ad9-b326-99f0597bd7ec.png)
+
