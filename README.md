@@ -19,7 +19,9 @@ Implemntation of Fast Hierarchy Construction for Dense Subgraphs
 
 5. The output of all input files is stored in the output.txt file
 
-**NOTE** Input4.txt is the dataset took from https://github.com/athomo/kcore/blob/master/simplegraph.txt with around 50 edges.
+**NOTE**  Input4.txt is the dataset took from https://github.com/athomo/kcore/blob/master/simplegraph.txt with around 50 edges.
+       
+          Input5.txt contains the 101 edges
 
 
 Graph and Skeleton Structure for input3.txt file :
