@@ -23,7 +23,7 @@ public class Main {
 			
 			//taking input file here
 			Scanner sc = new Scanner(new File("input"+String.valueOf(seq)+".txt")); //can modify the input file accordingly
-			int [] inputData = new int [100];
+			int [] inputData = new int [1000];
 			int i = 0;
 			//storing the values from input file into inputData array
 			while(sc.hasNextInt())
