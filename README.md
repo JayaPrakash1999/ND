@@ -3,7 +3,7 @@ Implemntation of Fast Hierarchy Construction for Dense Subgraphs
 
 # Steps:
 1. Make sure the system has latest version of Java
-2. Run the **Main.java** using any IDE or command prompt.
+2. Run the **Main.java** using any IDE or command prompt. (Preferred IDE)
 
 3. The input file contains the edges of the input graph and each line in the input file indicates the vertex of the graph such that 2 lines together forms the edge.
 
@@ -26,3 +26,8 @@ Implemntation of Fast Hierarchy Construction for Dense Subgraphs
 
 Graph and Skeleton Structure for input3.txt file :
 ![image](https://user-images.githubusercontent.com/51074340/143935006-d052e646-a33d-4b80-a869-6cbd6a8a0c77.png)
+
+
+
+Screenshot of the output executed on Eclipse IDE:
+![image](https://user-images.githubusercontent.com/51074340/144123221-05b84b18-27a1-4793-8f55-d144fbcec1a7.png)
